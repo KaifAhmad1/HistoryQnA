@@ -1,14 +1,14 @@
 # HistoryQnA
-This project combines several powerful tools to create a Document-based Question-Answering (QnA) system. It integrates LangChain, Pinecone, and GPT-4 to provide advanced text processing and retrieval capabilities.
+This project combines several powerful tools to create a Document-based Question-Answering (QnA) system. It integrates `LangChain`, `Pinecone`, and `GPT-4` to provide advanced text processing and retrieval capabilities.
 
-Key Features:
+### Key Features:
 
 Document Handling: Load and split documents from a directory.
 Document Embeddings: Utilize GPT-4 for generating embeddings of documents.
 Semantic Search: Implement semantic search using Pinecone, making it easier to find relevant documents.
 Question-Answering: Use LangChain to perform question-answering on the retrieved documents.
-How to Use:
 
+### How to Use:
 Set up the required dependencies and environment variables.
 Load and split your documents from a directory.
 Create document embeddings with GPT-4.
